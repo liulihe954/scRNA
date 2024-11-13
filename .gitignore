@@ -1,6 +1,7 @@
 # Ignore everything by default
 *
 !.gitignore
+!README.md
 
 # Do not ignore directories, so we can whitelist specific files within them
 !*/
