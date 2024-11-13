@@ -1,0 +1,33 @@
+# Ignore everything by default
+*
+!.gitignore
+
+# Do not ignore directories, so we can whitelist specific files within them
+!*/
+
+# Whitelist the src directory and its contents
+!src/
+!src/**
+
+
+# Keep the ./data directorgiy but ignore its content
+data/*
+!data/.gitkeep
+
+# Keep the ./data directory but ignore its content
+rawData/*
+!rawData/.gitkeep
+
+# Keep the ./data directory but ignore its content
+intermData/*
+!intermData/.gitkeep
+
+
+
+# Whitelist all .R and .ipynb files
+!*.R
+!*.ipynb
+
+# Ignore .gitkeep files if you don't want to see them in your Git status
+# .gitkeep
+
